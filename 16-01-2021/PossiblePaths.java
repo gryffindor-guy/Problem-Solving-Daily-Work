@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class PossiblePaths
+public class PossiblePaths
 {
     public static void main(String[] args) throws IOException
     {
