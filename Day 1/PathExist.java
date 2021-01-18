@@ -32,7 +32,7 @@ class Solution
 {
     public static boolean is_Possible(int[][] grid)
     {
-        boolean[] visited = new boolean[grid.length];
+        boolean[][] visited = new boolean[grid.length][grid.length];
         if (grid == null || grid.length == 0) {
             return false;
         }
